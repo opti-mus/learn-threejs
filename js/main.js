@@ -92,7 +92,7 @@ class SvfTo3D {
         canvas.width = this.SIZE
         canvas.height = this.SIZE
 
-        const images = ['/img/arrow.svg', '/img/close.svg','/img/place.svg']
+        const images = ['../img/arrow.svg', '../img/close.svg','../img/place.svg']
         this.loadImages(images, (loadedImages) => {
             loadedImages.forEach(image => {
                 this.gallery.push(this.getArrayFromImage(image))
